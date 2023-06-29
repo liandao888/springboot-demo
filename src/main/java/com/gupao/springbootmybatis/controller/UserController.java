@@ -26,7 +26,7 @@ public class UserController {
     @RequestMapping("/list")
     @ResponseBody
     public String listAll(){
-        return "hello jenkins!11111";
+        return "hello jenkins!1111122222";
     }
 
     @RequestMapping(value="/add",method = RequestMethod.POST)
